@@ -106,12 +106,15 @@ header h1 {
 
 /* Items */
 
-.items {
+.items  {
   margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
-}
 
+}
+li{
+    overflow-y: auto;
+}
 .items li {
   display: flex;
   justify-content: space-between;
